@@ -5,7 +5,6 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class SettingRq {
     private long id;
-    private String version;
 
     public long getId() {
         return id;
@@ -13,13 +12,5 @@ public class SettingRq {
 
     public void setId(long id) {
         this.id = id;
-    }
-
-    public String getVersion() {
-        return version;
-    }
-
-    public void setVersion(String version) {
-        this.version = version;
     }
 }
